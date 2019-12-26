@@ -6,7 +6,6 @@ export default class NewTodoForm extends Component {
     super(props);
     this.state = {
       task: "",
-      isEditing: false,
       isComplete: false,
       id: ""
     };
